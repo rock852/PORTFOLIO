@@ -1,0 +1,274 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  line-height: 1.6;
+  background: linear-gradient(120deg, #f0f4f8, #ffffff);
+}
+
+/* Section Titles */
+h2 {
+  font-size: 2rem;
+  color: #003f63;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #006680;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #ff6347; /* Coral */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff4500;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #006680, #00b3c7);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  clip-path: ellipse(110% 100% at 50% 0%);
+}
+
+.hero h1 span {
+  color: #ffd700; /* Golden Yellow */
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+  background: #ff4500;
+}
+
+/* Navigation */
+nav {
+  background: #003f63;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #006680;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+  margin: 10px 20px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+}
+
+.skills-section {
+  background: linear-gradient(135deg, #e8f5e9, #ffffff);
+}
+
+.contact-section {
+  background: #f0f4f8;
+}
+
+/* Cards */
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skill {
+  background: #00b3c7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill:hover {
+  background: #006680;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+  background: #ff4500;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #003f63;
+  color: white;
+  font-size: 0.9rem;
+}
+
+
+/* Social Links Section */
+#social-links {
+  text-align: center;
+  padding: 30px 0;
+  background: linear-gradient(135deg, #e3f2fd, #f0f4f8);
+}
+
+#social-links h2 {
+  color: #003f63;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#certificates {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#certificates h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.certificate {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.certificate h3 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.certificate p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.certificate-link {
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.certificate-link:hover {
+  text-decoration: underline;
+}
